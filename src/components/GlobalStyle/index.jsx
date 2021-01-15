@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-size: 62.5%;
         font-family: sans-serif;
+        background-color: #1e1f26;
     }
 
     * {

@@ -8,7 +8,8 @@ const PageHeader = ({ children }) => {
 export const PageHeaderBase = styled.header`
 	font-size: 2rem;
 	text-align: center;
-	background-color: lightgreen;
+	background-color: #1e1f26;
+	color: white;
 
 	h1 {
 		margin: 0;
