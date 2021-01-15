@@ -13,28 +13,32 @@ const UserContainer = ({ firstName, lastName, avatar, email }) => {
 };
 
 const UserContainerBase = styled.article`
-	border: 1px solid red;
 	display: flex;
 	position: relative;
 	margin: 0 8rem;
+	background-color: #131320;
+	border-radius: 10px;
+	height: 20rem;
+	width: 60vw;
 	img {
 		border-radius: 50%;
-		height: 200px;
+		height: 150px;
 		margin: 1rem;
 	}
 
 	h2 {
 		font-size: 5rem;
-		border: 1px solid blue;
 		height: fit-content;
-		margin: 5rem 1rem;
+		margin: 3rem 1rem;
+		color: white;
 	}
 
 	.email-container {
 		position: absolute;
-		top: 60%;
-		left: 16%;
-		font-size: 3rem;
+		top: 50%;
+		left: 20%;
+		font-size: 2.5rem;
+		color: white;
 	}
 `;
 

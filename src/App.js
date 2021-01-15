@@ -48,7 +48,6 @@ function App() {
 }
 
 const MainBase = styled.main`
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
